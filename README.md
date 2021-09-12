@@ -24,10 +24,15 @@
 ⚡️ Optimized with Webpack\
 ⚡️ Well organized documentation
 
-To view a demo example, **[click here](https://simplfolio.netlify.com/)**\
-To view a live example, **[click here](https://cobidev.com/)**
+To view a demo example, **[click here](https://simplfolio.netlify.com/)**
 
 ---
+
+## Need of portfolio for a developer ☝️
+
+- Professional way to showcase your work
+- Increases your visibility and online presence
+- Shows you’re more than just a resume
 
 ## Getting Started 🚀
 
@@ -69,6 +74,7 @@ $ git remote remove origin
 Then you can install the dependencies either using NPM or Yarn:
 
 Using NPM:
+
 ```bash
 # Install dependencies
 $ npm install
@@ -76,7 +82,9 @@ $ npm install
 # Start development server
 $ npm start
 ```
+
 Using Yarn:
+
 ```bash
 # Install dependencies
 $ yarn
@@ -139,9 +147,7 @@ Go to `/src/template.html` and fill your information, they are 5 sections:
 <!-- **** About Section **** -->
 <section id="about">
   <div class="container">
-    <h2 class="section-title">
-      About me
-    </h2>
+    <h2 class="section-title">About me</h2>
     <div class="row about-wrapper">
       <div class="col-md-6 col-sm-12">
         <div class="about-wrapper__image">
@@ -163,7 +169,7 @@ Go to `/src/template.html` and fill your information, they are 5 sections:
             Lorem ipsum dolor sit, about my text.
           </p>
           <span class="d-flex mt-3">
-            <a target="_blank" class="cta-btn cta-btn--resume" href="#!">
+            <a target="_blank" class="cta-btn cta-btn--resume" href="">
               View Resume
             </a>
           </span>
@@ -198,9 +204,7 @@ Go to `/src/template.html` and fill your information, they are 5 sections:
       <div class="project-wrapper__text">
         <h3 class="project-wrapper__text-title">[Project Title]</h3>
         <div>
-          <p class="mb-4">
-            Lorem ipsum dolor sit, my project information.
-          </p>
+          <p class="mb-4">Lorem ipsum dolor sit, my project information.</p>
         </div>
         <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
           See Live
@@ -234,13 +238,9 @@ Go to `/src/template.html` and fill your information, they are 5 sections:
 <!-- **** Contact Section **** -->
 <section id="contact">
   <div class="container">
-    <h2 class="section-title">
-      Contact
-    </h2>
+    <h2 class="section-title">Contact</h2>
     <div class="contact-wrapper">
-      <p class="contact-wrapper__text">
-        Put here your contact CTA
-      </p>
+      <p class="contact-wrapper__text">Put here your contact CTA</p>
       <a
         target="_blank"
         class="cta-btn cta-btn--resume"
