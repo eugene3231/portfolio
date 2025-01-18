@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js --open",
+    "startprod": "webpack serve --config webpack.prod.js --open",
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
@@ -22,12 +23,12 @@
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^7.0.0",
     "file-loader": "^6.2.0",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^1.6.1",
     "node-sass": "^7.0.3",
-    "optimize-css-assets-webpack-plugin": "^6.0.1",
     "prettier": "^2.7.1",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
